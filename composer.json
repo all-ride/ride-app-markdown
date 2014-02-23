@@ -1,0 +1,15 @@
+{
+    "name": "ride/app-markdown",
+    "description": "Pallo decorator to parse markdown formatted text into HTML.",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Joris Vandeweerd",
+            "email": "joris@statik.be"
+        }
+    ],
+    "require": {
+        "dflydev/markdown": "1.0.*@dev",
+        "ride/lib-common": ">=0.1"
+    }
+}
