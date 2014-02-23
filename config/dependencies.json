@@ -1,0 +1,9 @@
+{
+    "dependencies": [
+        {   
+            "class": "ride\\library\\decorator\\MarkdownDecorator",
+            "interfaces": "ride\\library\\decorator\\Decorator",
+            "id": "markdown"
+        }
+    ]
+}
