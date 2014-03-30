@@ -1,6 +1,6 @@
 {
     "name": "ride/app-markdown",
-    "description": "Pallo decorator to parse markdown formatted text into HTML.",
+    "description": "Ride decorator to parse markdown formatted text into HTML.",
     "version": "0.1.0",
     "authors": [
         {
@@ -11,5 +11,10 @@
     "require": {
         "dflydev/markdown": "1.0.*@dev",
         "ride/lib-common": ">=0.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "ride\\library\\decorator\\MarkdownDecorator": ["src/"]
+        }
     }
 }
