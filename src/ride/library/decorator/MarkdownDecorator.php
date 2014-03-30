@@ -11,13 +11,13 @@ class MarkdownDecorator implements Decorator {
 
     /**
      * Actual markdown parser
-     * @var dflydev\markdown\MarkdownExtraParser
+     * @var \dflydev\markdown\MarkdownExtraParser
      */
     protected $parser;
 
     /**
      * Constructs a new markdown decorator
-     * @param dflydev\markdown\MarkdownExtraParser $parser
+     * @param \dflydev\markdown\MarkdownExtraParser $parser
      * @return null
      */
     public function __construct(MarkdownExtraParser $parser) {
