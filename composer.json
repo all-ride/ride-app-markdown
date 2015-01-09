@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "dflydev/markdown": "1.0.*@dev",
+        "michelf/php-markdown": "*",
         "ride/lib-common": ">=0.1"
     },
     "autoload": {

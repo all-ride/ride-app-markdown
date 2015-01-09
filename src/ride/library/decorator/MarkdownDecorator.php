@@ -2,7 +2,7 @@
 
 namespace ride\library\decorator;
 
-use dflydev\markdown\MarkdownExtraParser;
+use Michelf\MarkdownExtra;
 
 /**
  * Decorator for markdown text
@@ -17,10 +17,10 @@ class MarkdownDecorator implements Decorator {
 
     /**
      * Constructs a new markdown decorator
-     * @param \dflydev\markdown\MarkdownExtraParser $parser
+     * @param \Michelf\MarkdownExtra $parser
      * @return null
      */
-    public function __construct(MarkdownExtraParser $parser) {
+    public function __construct(MarkdownExtra $parser) {
         $this->parser = $parser;
     }
 
@@ -34,7 +34,7 @@ class MarkdownDecorator implements Decorator {
             return $value;
         }
 
-        return $this->parser->transformMarkdown($value);
+        return $this->parser->transform($value);
     }
 
 }
