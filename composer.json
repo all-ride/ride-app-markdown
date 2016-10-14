@@ -1,7 +1,7 @@
 {
     "name": "ride/app-markdown",
     "description": "Ride decorator to parse markdown formatted text into HTML.",
-    "version": "0.2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Joris Vandeweerd",
@@ -10,7 +10,7 @@
     ],
     "require": {
         "michelf/php-markdown": "*",
-        "ride/lib-common": ">=0.1"
+        "ride/lib-common": "^1.0.0"
     },
     "autoload": {
         "psr-0": {
